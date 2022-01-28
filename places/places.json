@@ -1,0 +1,228 @@
+{
+  "locations": [
+    {
+    "id":0,
+    "place":"Azua",
+    "desc":"Loma",
+    "latitude":18.45319,
+    "longitude":-70.7349
+    },
+    {
+    "id":1,
+    "place":"Bahoruco",
+    "desc":"Loma",
+    "latitude":18.48137,
+    "longitude":-71.41965
+    },
+    {
+    "id":2,
+    "place":"Barahona",
+    "desc":"Santa Cruz de Barahona",
+    "latitude":18.20854,
+    "longitude":-71.10077
+    },
+    {
+    "id":3,
+    "place":"Dajabón",
+    "desc":"Cibao",
+    "latitude":19.54878,
+    "longitude":-71.70829
+    },
+    {
+    "id": 4,
+    "place":"Duarte",
+    "desc":"San Francisco de Macorís",
+    "latitude":19.30099,
+    "longitude":-70.25259
+    },
+    {
+    "id":5,
+    "place":"El Seibo",
+    "desc":"Santa Cruz de El Seibo",
+    "latitude":18.76559,
+    "longitude":-69.03886
+    },
+    {
+    "id":6,
+    "place":"Elías Piña",
+    "desc":"Comendador",
+    "latitude":18.8775,
+    "longitude":-71.70278
+    },
+    {
+    "id":7,
+    "place":"Espaillat",
+    "desc":"Moca",
+    "latitude":19.39352,
+    "longitude":-70.52598
+    },
+    {
+    "id": 8,
+    "place":"Hato Mayor",
+    "desc":"Hato Mayor del Rey",
+    "latitude":18.8775,
+    "longitude":-69.25681
+    },
+    {
+    "id":9,
+    "place":"Hermanas Mirabal",
+    "desc":"Salcedo",
+    "latitude":19.37762,
+    "longitude":-70.41762
+    },
+    {
+    "id":10,
+    "place": "Independencia",
+    "desc":"Jimaní/Duvergé",
+    "latitude":18.49169,
+    "longitude":-71.85022
+    },
+    {
+    "id":11,
+    "place": "La Altagracia",
+    "desc":"Salvaleón de Higüey",
+    "latitude":18.61501,
+    "longitude":-68.70798
+    },
+    {
+    "id":12,
+    "place": "La Romana",
+    "desc":"La Romana",
+    "latitude": 18.42733,
+    "longitude":-68.97285
+    },
+    {
+    "id":13,
+    "place":"La Vega",
+    "desc":"La Vega",
+    "latitude":19.22207,
+    "longitude":-70.52956
+    },
+    {
+    "id":14,
+    "place":"María Trinidad Sánchez",
+    "desc":"Nagua",
+    "latitude":19.3832,
+    "longitude":-69.8474
+    },
+    {
+    "id":15,
+    "place":"Monseñor Nouel",
+    "desc":"Bonao",
+    "latitude":18.93687,
+    "longitude":-70.40923
+    },
+    {
+    "id":16,
+    "place": "Monte Cristi",
+    "desc":"San Fernando de Monte Cristi",
+    "latitude":19.84826 ,
+    "longitude":-71.64597
+    },
+    {
+    "id":17,
+    "place":"Monte Plata",
+    "desc":"Monte Plata",
+    "latitude":18.807,
+    "longitude":-69.78399
+    },
+    {
+    "id":18,
+    "place":"Pedernales",
+    "desc":"Pedernales",
+    "latitude":18.03838,
+    "longitude":-71.74403
+    },
+    {
+    "id":19,
+    "place":"Peravia",
+    "desc":"Bani",
+    "latitude":18.27964,
+    "longitude":-70.33185
+    },
+    {
+    "id":20,
+    "place":"Puerto Plata",
+    "desc":"Puerto Plata",
+    "latitude":19.79344,
+    "longitude":-70.6884
+    },
+    {
+    "id":21,
+    "place": "Samaná",
+    "desc":"Santa Bárbara de Samaná",
+    "latitude":19.20561,
+    "longitude":-69.33685
+    },
+    {
+    "id":22,
+    "place":"San Cristóbal",
+    "desc":"San Cristóbal",
+    "latitude":18.41667,
+    "longitude":-70.1
+    },
+    {
+    "id":23,
+    "place":"San José de Ocoa",
+    "desc":"San José de Ocoa",
+     "latitude":18.54661,
+     "longitude":-70.50631
+    },
+    {
+    "id":24,
+    "place":"San Juan",
+    "desc":"San Juan de la Maguana",
+    "latitude":18.80588,
+    "longitude":-71.22991
+    },
+    {
+    "id":25,
+    "place":"San Pedro de Macorís",
+    "desc":"San Pedro de Macorís",
+    "latitude":18.4539 ,
+    "longitude":-69.30864
+    },
+    {
+    "id":26,
+    "place":"Sánchez Ramírez",
+    "desc":"Cotuí",
+    "latitude":19.05272 ,
+    "longitude":-70.14939
+    },
+    {
+    "id":27,
+    "place":"Santiago",
+    "desc":"Santiago de los Caballeros",
+    "latitude":19.4517,
+    "longitude":-70.69703
+    },
+    {
+    "id":28,
+    "place":"Santiago Rodríguez",
+    "desc":"San Ignacio de Sabaneta",
+    "latitude":19.47793 ,
+    "longitude":-71.34125
+    },
+    {
+    "id": 29,
+    "place":"Santo Domingo",
+    "desc":"Santo Domingo Este / Santo Domingo Norte",
+    "latitude":18.48847,
+    "longitude":-69.85707
+    },
+    {
+    "id":30,
+    "place":"Valverde",
+    "desc":"Santa Cruz de Mao",
+    "latitude":19.55186,
+    "longitude":-71.07813
+    },
+    {
+    "id":31,
+    "place": "Distrito Nacional",
+    "desc":"Santo Domingo",
+    "latitude":18.47186,
+    "longitude":-69.89232
+    }
+  ]
+}
