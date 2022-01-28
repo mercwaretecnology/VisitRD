@@ -15,6 +15,8 @@
 		8C313CF227720277007C8670 /* placesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C313CF127720277007C8670 /* placesUITests.swift */; };
 		8C313CF427720277007C8670 /* placesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C313CF327720277007C8670 /* placesUITestsLaunchTests.swift */; };
 		8C313D012772029C007C8670 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C313D002772029C007C8670 /* places.json */; };
+		8C46E2AC27A38C2600126703 /* LocationsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C46E2AB27A38C2600126703 /* LocationsContentView.swift */; };
+		8C46E2B227A4567600126703 /* PlacesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C46E2B027A4567600126703 /* PlacesModel.xcdatamodeld */; };
 		8CAE43F4278CC0B800A182E0 /* PlacePrivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE43F3278CC0B800A182E0 /* PlacePrivider.swift */; };
 		8CAE43F6278CC23E00A182E0 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE43F5278CC23E00A182E0 /* PlacesView.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,9 @@
 		8C313CF127720277007C8670 /* placesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesUITests.swift; sourceTree = "<group>"; };
 		8C313CF327720277007C8670 /* placesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C313D002772029C007C8670 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		8C46E2AB27A38C2600126703 /* LocationsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsContentView.swift; sourceTree = "<group>"; };
+		8C46E2AD27A39FEC00126703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C46E2B127A4567600126703 /* PlacesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlacesModel.xcdatamodel; sourceTree = "<group>"; };
 		8CAE43F3278CC0B800A182E0 /* PlacePrivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePrivider.swift; sourceTree = "<group>"; };
 		8CAE43F5278CC23E00A182E0 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +85,7 @@
 		8C313CCA27720275007C8670 = {
 			isa = PBXGroup;
 			children = (
+				8C46E2AF27A4563E00126703 /* coreData */,
 				8C313CD527720275007C8670 /* places */,
 				8C313CE627720277007C8670 /* placesTests */,
 				8C313CF027720277007C8670 /* placesUITests */,
@@ -100,13 +106,12 @@
 		8C313CD527720275007C8670 /* places */ = {
 			isa = PBXGroup;
 			children = (
+				8C46E2AD27A39FEC00126703 /* Info.plist */,
 				8C313CD627720275007C8670 /* placesApp.swift */,
 				8C313CD827720275007C8670 /* ContentView.swift */,
 				8C313D002772029C007C8670 /* places.json */,
 				8C313CDA27720277007C8670 /* Assets.xcassets */,
 				8C313CDC27720277007C8670 /* Preview Content */,
-				8CAE43F3278CC0B800A182E0 /* PlacePrivider.swift */,
-				8CAE43F5278CC23E00A182E0 /* PlacesView.swift */,
 			);
 			path = places;
 			sourceTree = "<group>";
@@ -114,6 +119,9 @@
 		8C313CDC27720277007C8670 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8CAE43F3278CC0B800A182E0 /* PlacePrivider.swift */,
+				8CAE43F5278CC23E00A182E0 /* PlacesView.swift */,
+				8C46E2AB27A38C2600126703 /* LocationsContentView.swift */,
 				8C313CDD27720277007C8670 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -134,6 +142,14 @@
 				8C313CF327720277007C8670 /* placesUITestsLaunchTests.swift */,
 			);
 			path = placesUITests;
+			sourceTree = "<group>";
+		};
+		8C46E2AF27A4563E00126703 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				8C46E2B027A4567600126703 /* PlacesModel.xcdatamodeld */,
+			);
+			path = coreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +285,8 @@
 			files = (
 				8C313CD927720275007C8670 /* ContentView.swift in Sources */,
 				8C313CD727720275007C8670 /* placesApp.swift in Sources */,
+				8C46E2AC27A38C2600126703 /* LocationsContentView.swift in Sources */,
+				8C46E2B227A4567600126703 /* PlacesModel.xcdatamodeld in Sources */,
 				8CAE43F6278CC23E00A182E0 /* PlacesView.swift in Sources */,
 				8CAE43F4278CC0B800A182E0 /* PlacePrivider.swift in Sources */,
 			);
@@ -434,6 +452,7 @@
 				DEVELOPMENT_TEAM = 45H854JAM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = places/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +483,7 @@
 				DEVELOPMENT_TEAM = 45H854JAM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = places/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -619,6 +639,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C46E2B027A4567600126703 /* PlacesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C46E2B127A4567600126703 /* PlacesModel.xcdatamodel */,
+			);
+			currentVersion = 8C46E2B127A4567600126703 /* PlacesModel.xcdatamodel */;
+			path = PlacesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8C313CCB27720275007C8670 /* Project object */;
 }

@@ -13,6 +13,7 @@ struct placesApp: App {
         WindowGroup {
             ContentView()
            // PlacesView()
+            //LocationsContentView()
             
         }
     }
